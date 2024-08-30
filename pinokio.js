@@ -2,7 +2,7 @@ const path = require('path')
 module.exports = {
   version: "2.0",
   title: "LocalAIVtuber",
-  description: "",
+  description: "A tool for hosting AI vtubers that runs fully locally and offline: https://github.com/0Xiaohei0/LocalAIVtuber",
   icon: "icon.png",
   menu: async (kernel, info) => {
     let installed = info.exists("app/env")
