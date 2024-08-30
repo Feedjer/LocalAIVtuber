@@ -28,16 +28,8 @@ module.exports = {
       method: "local.set",
       params: {
         // the input.event is the regular expression match object from the previous step
-        url: "{{input.event[0]}}"
+        url: "http://127.0.0.1:7860"
       }
-    },
-//    Uncomment this step to enable local wifi sharing (access the app from devices on the same network)
-//    {
-//      method: "proxy.start",
-//      params: {
-//        uri: "{{local.url}}",
-//        name: "Local Sharing"
-//      }
-//    }
+    }
   ]
 }
